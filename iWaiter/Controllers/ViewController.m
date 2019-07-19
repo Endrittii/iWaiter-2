@@ -23,14 +23,14 @@
     Data *person =[[Data alloc] initWithData:tbName.text theEmail:tbEmail.text theFood:tbFood.text];
     BOOL returncode = [mainDelegate insertIntoDatabase:person];
     
-    NSString *returnMsg = @"Food has been added";
+    NSString *returnMsg = @"Porosia është shtuar në bazën e të dhënave";
     
     if(returncode==NO)
-        returnMsg=@"Food Add Failed";
+        returnMsg=@"Porosia nuk është shtuar";
     
-    UIAlertController *alert=[UIAlertController alertControllerWithTitle:@"Attention!" message:returnMsg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert=[UIAlertController alertControllerWithTitle:@"Vëmendje!" message:returnMsg preferredStyle:UIAlertControllerStyleAlert];
     
-    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Në rregull" style:UIAlertActionStyleDefault handler:nil];
     
     [alert addAction:ok];
     [self presentViewController:alert animated:YES completion:nil];
