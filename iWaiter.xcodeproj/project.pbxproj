@@ -15,6 +15,14 @@
 		88A36F8422E0B32900F244AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36F8322E0B32900F244AF /* main.m */; };
 		88A36F8E22E0B32900F244AF /* iWaiterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36F8D22E0B32900F244AF /* iWaiterTests.m */; };
 		88A36F9922E0B32900F244AF /* iWaiterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36F9822E0B32900F244AF /* iWaiterUITests.m */; };
+		88A36FA722E0B3C500F244AF /* MyDatabase.db in Resources */ = {isa = PBXBuildFile; fileRef = 88A36FA622E0B3C500F244AF /* MyDatabase.db */; };
+		88A36FB622E0B5A600F244AF /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36FB322E0B5A600F244AF /* Data.m */; };
+		88A36FB722E0B5A600F244AF /* SiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36FB422E0B5A600F244AF /* SiteCell.m */; };
+		88A36FBC22E0B62600F244AF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36FB822E0B62500F244AF /* TableViewController.m */; };
+		88A36FBD22E0B62600F244AF /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A36FBA22E0B62500F244AF /* PickerViewController.m */; };
+		88A36FC122E0C96000F244AF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A36FBF22E0C96000F244AF /* libsqlite3.0.tbd */; };
+		88A36FC222E0C96000F244AF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A36FC022E0C96000F244AF /* libsqlite3.tbd */; };
+		88A36FC422E1124F00F244AF /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A36FC322E1124E00F244AF /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		88A36F9422E0B32900F244AF /* iWaiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWaiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A36F9822E0B32900F244AF /* iWaiterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWaiterUITests.m; sourceTree = "<group>"; };
 		88A36F9A22E0B32900F244AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A36FA622E0B3C500F244AF /* MyDatabase.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyDatabase.db; sourceTree = "<group>"; };
+		88A36FB222E0B5A600F244AF /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		88A36FB322E0B5A600F244AF /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		88A36FB422E0B5A600F244AF /* SiteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteCell.m; sourceTree = "<group>"; };
+		88A36FB522E0B5A600F244AF /* SiteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteCell.h; sourceTree = "<group>"; };
+		88A36FB822E0B62500F244AF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		88A36FB922E0B62500F244AF /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		88A36FBA22E0B62500F244AF /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		88A36FBB22E0B62600F244AF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		88A36FBF22E0C96000F244AF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		88A36FC022E0C96000F244AF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		88A36FC322E1124E00F244AF /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A36FC122E0C96000F244AF /* libsqlite3.0.tbd in Frameworks */,
+				88A36FC222E0C96000F244AF /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				88A36F8C22E0B32900F244AF /* iWaiterTests */,
 				88A36F9722E0B32900F244AF /* iWaiterUITests */,
 				88A36F7222E0B32100F244AF /* Products */,
+				88A36FC322E1124E00F244AF /* logo.jpg */,
+				88A36FBE22E0C95F00F244AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +125,11 @@
 		88A36F7322E0B32100F244AF /* iWaiter */ = {
 			isa = PBXGroup;
 			children = (
-				88A36F7422E0B32100F244AF /* AppDelegate.h */,
-				88A36F7522E0B32100F244AF /* AppDelegate.m */,
-				88A36F7722E0B32100F244AF /* ViewController.h */,
-				88A36F7822E0B32100F244AF /* ViewController.m */,
-				88A36F7A22E0B32100F244AF /* Main.storyboard */,
+				88A36FB122E0B58000F244AF /* Special classes */,
+				88A36FB022E0B55600F244AF /* Nibs */,
+				88A36FAF22E0B53E00F244AF /* Database */,
+				88A36FAE22E0B52700F244AF /* Controllers */,
 				88A36F7D22E0B32900F244AF /* Assets.xcassets */,
-				88A36F7F22E0B32900F244AF /* LaunchScreen.storyboard */,
 				88A36F8222E0B32900F244AF /* Info.plist */,
 				88A36F8322E0B32900F244AF /* main.m */,
 			);
@@ -130,6 +152,58 @@
 				88A36F9A22E0B32900F244AF /* Info.plist */,
 			);
 			path = iWaiterUITests;
+			sourceTree = "<group>";
+		};
+		88A36FAE22E0B52700F244AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88A36FB922E0B62500F244AF /* PickerViewController.h */,
+				88A36FBA22E0B62500F244AF /* PickerViewController.m */,
+				88A36FBB22E0B62600F244AF /* TableViewController.h */,
+				88A36FB822E0B62500F244AF /* TableViewController.m */,
+				88A36F7722E0B32100F244AF /* ViewController.h */,
+				88A36F7822E0B32100F244AF /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		88A36FAF22E0B53E00F244AF /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				88A36FA622E0B3C500F244AF /* MyDatabase.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		88A36FB022E0B55600F244AF /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				88A36F7A22E0B32100F244AF /* Main.storyboard */,
+				88A36F7F22E0B32900F244AF /* LaunchScreen.storyboard */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		88A36FB122E0B58000F244AF /* Special classes */ = {
+			isa = PBXGroup;
+			children = (
+				88A36FB222E0B5A600F244AF /* Data.h */,
+				88A36FB322E0B5A600F244AF /* Data.m */,
+				88A36FB522E0B5A600F244AF /* SiteCell.h */,
+				88A36FB422E0B5A600F244AF /* SiteCell.m */,
+				88A36F7422E0B32100F244AF /* AppDelegate.h */,
+				88A36F7522E0B32100F244AF /* AppDelegate.m */,
+			);
+			path = "Special classes";
+			sourceTree = "<group>";
+		};
+		88A36FBE22E0C95F00F244AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A36FBF22E0C96000F244AF /* libsqlite3.0.tbd */,
+				88A36FC022E0C96000F244AF /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +309,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A36FA722E0B3C500F244AF /* MyDatabase.db in Resources */,
+				88A36FC422E1124F00F244AF /* logo.jpg in Resources */,
 				88A36F8122E0B32900F244AF /* LaunchScreen.storyboard in Resources */,
 				88A36F7E22E0B32900F244AF /* Assets.xcassets in Resources */,
 				88A36F7C22E0B32100F244AF /* Main.storyboard in Resources */,
@@ -263,8 +339,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A36F7922E0B32100F244AF /* ViewController.m in Sources */,
+				88A36FBC22E0B62600F244AF /* TableViewController.m in Sources */,
+				88A36FB722E0B5A600F244AF /* SiteCell.m in Sources */,
 				88A36F8422E0B32900F244AF /* main.m in Sources */,
 				88A36F7622E0B32100F244AF /* AppDelegate.m in Sources */,
+				88A36FBD22E0B62600F244AF /* PickerViewController.m in Sources */,
+				88A36FB622E0B5A600F244AF /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = r.iWaiter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = r.iWaiter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
