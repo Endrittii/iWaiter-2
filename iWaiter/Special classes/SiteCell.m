@@ -10,7 +10,7 @@
 
 @implementation SiteCell
 @synthesize primaryLabel, secondaryLabel, myImageView;
--(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier:(NSString *)reuseIdentifier
+-(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     
@@ -22,7 +22,7 @@
             primaryLabel.font=[UIFont systemFontOfSize:36];
         else
         primaryLabel.font=[UIFont systemFontOfSize:18];
-        //qetu kom ndrru mos t harroj
+        //qetu kom ndrru 10:15 am mos t harroj
         primaryLabel.backgroundColor=[UIColor clearColor];
         primaryLabel.textColor=[UIColor blackColor];
         
@@ -36,11 +36,11 @@
         secondaryLabel.font=[UIFont systemFontOfSize:12];
         
         
-        secondaryLabel.backgroundColor=[UIColor redColor];
+        secondaryLabel.backgroundColor=[UIColor clearColor];
         secondaryLabel.textColor=[UIColor blueColor];
         
         myImageView = [[UIImageView alloc] init];
-        
+        //20:20
         [self.contentView addSubview:myImageView];
         [self.contentView addSubview:primaryLabel];
         [self.contentView addSubview:secondaryLabel];

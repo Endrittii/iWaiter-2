@@ -23,6 +23,7 @@
 		88A36FC122E0C96000F244AF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A36FBF22E0C96000F244AF /* libsqlite3.0.tbd */; };
 		88A36FC222E0C96000F244AF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A36FC022E0C96000F244AF /* libsqlite3.tbd */; };
 		88A36FC422E1124F00F244AF /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A36FC322E1124E00F244AF /* logo.jpg */; };
+		88A36FC822E1E28F00F244AF /* depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A36FC722E1E28E00F244AF /* depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		88A36FBF22E0C96000F244AF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		88A36FC022E0C96000F244AF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		88A36FC322E1124E00F244AF /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		88A36FC722E1E28E00F244AF /* depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				88A36F7D22E0B32900F244AF /* Assets.xcassets */,
 				88A36F8222E0B32900F244AF /* Info.plist */,
 				88A36F8322E0B32900F244AF /* main.m */,
+				88A36FC722E1E28E00F244AF /* depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg */,
 			);
 			path = iWaiter;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A36FC822E1E28F00F244AF /* depositphotos_138554900-stock-illustration-restaurant-waiter-with-a-bow.jpg in Resources */,
 				88A36FA722E0B3C500F244AF /* MyDatabase.db in Resources */,
 				88A36FC422E1124F00F244AF /* logo.jpg in Resources */,
 				88A36F8122E0B32900F244AF /* LaunchScreen.storyboard in Resources */,
@@ -514,7 +518,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3SSAD2297;
 				INFOPLIST_FILE = iWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,7 +536,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3SSAD2297;
 				INFOPLIST_FILE = iWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
